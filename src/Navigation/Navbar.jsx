@@ -40,15 +40,15 @@ export default function Navbar({ }) {
                   className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
                   to="/about"
                 >
-                <span className="ml-2">পরিচিতি</span>
+                <span className="ml-2">About</span>
                 </Link>
               </li>
               <li className="nav-item">
                 <Link
                   className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
-                  to="/volunteer"
+                  to="/to-late"
                 >
-                  <span className="ml-2">স্বেচ্ছাসেবী</span>
+                  <span className="ml-2">To-Late</span>
                 </Link>
               </li>
               <li className="nav-item">

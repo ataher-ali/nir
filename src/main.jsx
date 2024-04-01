@@ -8,6 +8,8 @@ import {
 import './index.css'
 import Home from './Pages/Home/Home.jsx';
 import Error from './Pages/Error/Error.jsx';
+import About from './Pages/About/About.jsx';
+import ToLate from './Pages/To-Late/ToLate.jsx';
 
 const router = createBrowserRouter([
   {
@@ -22,6 +24,14 @@ const router = createBrowserRouter([
         path:"/*",
         element: <Error></Error>
       },
+      {
+        path:"/about",
+        element: <About></About>
+      },
+      {
+        path:"/to-late",
+        element: <ToLate></ToLate>
+      }
     ]
   },
 ]);
