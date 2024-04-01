@@ -12,6 +12,7 @@ import About from './Pages/About/About.jsx';
 import ToLate from './Pages/To-Late/ToLate.jsx';
 import Profile from './Pages/Profile/Profile.jsx';
 import Land from './Pages/Land/Land.jsx';
+import PrivacyPolicy from './Pages/PrivacyPolicy/PrivacyPolicy.jsx';
 
 const router = createBrowserRouter([
   {
@@ -37,6 +38,10 @@ const router = createBrowserRouter([
       {
         path:"/land",
         element: <Land></Land>
+      },
+      {
+        path:"/privacy-policy",
+        element: <PrivacyPolicy></PrivacyPolicy>
       }
     ]
   },
