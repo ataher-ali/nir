@@ -54,17 +54,17 @@ export default function Navbar({ }) {
               <li className="nav-item">
                 <Link
                   className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
-                  to="/gest"
+                  to="/land"
                 >
-                  <span className="ml-2">অতিথি</span>
+                  <span className="ml-2">Land</span>
                 </Link>
               </li>
               <li className="nav-item">
                 <Link
                   className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
-                  to="/certificate"
+                  to="/profile"
                 >
-                  <span className="ml-2">সনদ যাচাই</span>
+                  <span className="ml-2"> Profile </span>
                 </Link>
               </li>
             </ul>

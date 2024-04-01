@@ -10,6 +10,8 @@ import Home from './Pages/Home/Home.jsx';
 import Error from './Pages/Error/Error.jsx';
 import About from './Pages/About/About.jsx';
 import ToLate from './Pages/To-Late/ToLate.jsx';
+import Profile from './Pages/Profile/Profile.jsx';
+import Land from './Pages/Land/Land.jsx';
 
 const router = createBrowserRouter([
   {
@@ -31,6 +33,14 @@ const router = createBrowserRouter([
       {
         path:"/to-late",
         element: <ToLate></ToLate>
+      },
+      {
+        path:"/profile",
+        element: <Profile></Profile>
+      },
+      {
+        path:"/land",
+        element: <Land></Land>
       }
     ]
   },
