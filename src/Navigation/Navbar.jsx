@@ -11,12 +11,11 @@ export default function Navbar({ }) {
           <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
             <div>
             <Link
-              className="text-sm flex mb-5 lg:mb-0 justify-center bg-white rounded-xl shadow leading-relaxed  mr-2 px-1 whitespace-nowrap uppercase text-gray-600"
+              className="text-sm flex mb-5 lg:mb-0 align-middle justify-center bg-white rounded p-4 shadow leading-relaxed  mr-2 px-1 whitespace-nowrap uppercase text-gray-600"
               to="/"
             >
-              <h2 className="h-16  rounded-sm text-3xl px-5 pt-3" >Nir</h2>
               {/* <img className="h-16  rounded-xl" src="https://i.ibb.co/Ltk5Hxr/1.png" alt="" /> */}
-              <span className="mx-2 hidden md:visible  mt-6 font-bold text-base">উলিপুর বই মেলা </span>
+              <span className="mx-2  md:visible  font-bold text-base">Nir</span>
             </Link>
             </div>
             <button

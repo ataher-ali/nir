@@ -13,6 +13,7 @@ import ToLate from './Pages/To-Late/ToLate.jsx';
 import Profile from './Pages/Profile/Profile.jsx';
 import Land from './Pages/Land/Land.jsx';
 import PrivacyPolicy from './Pages/PrivacyPolicy/PrivacyPolicy.jsx';
+import TermsAndConditions from './Pages/Terms And Conditions/TermsAndConditions.jsx';
 
 const router = createBrowserRouter([
   {
@@ -42,6 +43,10 @@ const router = createBrowserRouter([
       {
         path:"/privacy-policy",
         element: <PrivacyPolicy></PrivacyPolicy>
+      },
+      {
+        path:"/terms-and-conditions",
+        element: <TermsAndConditions></TermsAndConditions>
       }
     ]
   },
