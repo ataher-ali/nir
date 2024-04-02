@@ -14,6 +14,7 @@ import Profile from './Pages/Profile/Profile.jsx';
 import Land from './Pages/Land/Land.jsx';
 import PrivacyPolicy from './Pages/PrivacyPolicy/PrivacyPolicy.jsx';
 import TermsAndConditions from './Pages/Terms And Conditions/TermsAndConditions.jsx';
+import LogIn from './Pages/Auth Systam/LogIn/LogIn.jsx';
 
 const router = createBrowserRouter([
   {
@@ -47,6 +48,10 @@ const router = createBrowserRouter([
       {
         path:"/terms-and-conditions",
         element: <TermsAndConditions></TermsAndConditions>
+      },
+      {
+        path:"/log-in",
+        element: <LogIn></LogIn>
       }
     ]
   },
